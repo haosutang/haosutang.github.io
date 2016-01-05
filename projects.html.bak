@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=windows-1252" http-equiv="content-type">
+    <title>Projects</title>
+  </head>
+  <body style="            font-family: Verdana, Arial;font-size: 12px;">
+    <h1 align="center"> PROJECTS </h1>
+    <h3 style="text-align: center;"> <a href="hat310.html">Home</a>&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;<a href="projects.html">Projects</a>&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;<a href="gallery.html">Gallery</a>&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;<a href="resume.html">Resume</a></h3>
+    <table>
+      <tbody>
+        <tr>
+          <td style="width:40px"> <br>
+          </td>
+          <td style="width:800px">
+            <h3> 1. Model of actin cable dynamics</h3>
+            <p> Shown below is a 3D java simulation of the actin cable dynamics
+              in fission yeast. Green represents the cytoplasm in the fission
+              yeast cell. The blue spheres are immobile vacuoles that take up a
+              large amount of space in the cell. The yellow sphere in the center
+              stands for the nucleus. Formin protein clusters that localize at
+              the cell tip polymerize actin filaments. These actin filaments are
+              then bundled by cross-linking proteins. Sever proteins such as
+              cofilin are simulated as random filament turnovers. Myosins walk
+              along the actin filament thus generating forces that straighten
+              the actin cables.<br>
+              <img src="resource/simulation.gif" alt="Simulation" height="400px">
+              <br>
+              <br>
+              This work has been presented at: <br>
+              1.Biophysical Society 57th Annual Meeting: Sun Feb. 3, 2013 @
+              Philadelphia, USA (<a href="resource/BPS2013_Tang.pdf">PDF</a>) <br>
+              2.American Physical Society March Meeting 2013: Wed Mar. 20, 2013
+              @ Baltimore, USA (<a href="resource/APS2013_Tang.pdf">PDF</a>) <br>
+              3.Pombe 2013: Thu June 27, 2013 @ London, UK (<a href="resource/Pombe2013_Tang.pdf">PDF</a>)
+            </p>
+            <p>I'm currently writing draft for this work and will submit in a
+              few weeks.<br>
+              This work is supported by an NIH grant.</p>
+            <h3> 2. Actin dynamics in droplet</h3>
+            <p> The simulation below shows actin proteins polymerize from random
+              positions and become bundled inside a droplet. The size of the
+              actin network becomes "squeezed" after bundling. Sometimes the
+              network can form a ring structure under certain conditions. <br>
+              <img src="resource/droplet.gif" alt="Droplet GIF" height="400px">
+            </p>
+            <h3> 3. Worm-like chain and semiflexible polymers</h3>
+            <p> The single filament below is simulated as semi-flexible
+              polymers. The segment length is 0.1 ?m and the total filament
+              length is 3 ?m. This filament fluctuates under thermal forces with
+              its persistence length set at 10 ?m. <br>
+              <br>
+              This youtube video shows six filaments are initialized towards one
+              direction and fluctuate through the "zipping" process and finally
+              become bundled. Right panel is tangent correlation showing bundled
+              phase has a much larger persistence length. <br>
+              <img src="resource/singlefilament.gif" alt="Single filament GIF" height="315px">
+              <iframe src="//www.youtube.com/embed/5JOW2FERhWY?rel=0" allowfullscreen=""
+                frameborder="0"
+                height="315"
+                width="420"></iframe></p>
+            <h3> 4. Lennard-Jones particles</h3>
+            <p>A system of particles is simulated here inside the box with
+              periodic boundary conditions under Lennard-Jones potential.
+              Veclocites are rescaled under given temperature condition. <br>
+              <iframe width="560" height="315" src="//www.youtube.com/embed/etyUl5xr9QI?rel=0" frameborder="0" allowfullscreen></iframe>
+              <br>
+              Here a system of dumbbells is simulated showing symmetric motion
+              (constraint conditions). <br>
+              <iframe src="//www.youtube.com/embed/QVNjinowSZc" allowfullscreen=""
+                frameborder="0"
+                height="315"
+                width="420"></iframe>
+            </p>
+            <h3> 5. Image registration and shape finding</h3>
+            <p>
+              <iframe width="560" height="315" src="//www.youtube.com/embed/jwGbw8fbc8Q?rel=0" frameborder="0" allowfullscreen></iframe>
+            </p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
