@@ -9,49 +9,80 @@
     <h3 style="text-align: center;"> <a href="hat310.html">Home</a>&nbsp;&nbsp;&nbsp;
       &nbsp;&nbsp;&nbsp;<a href="projects.html">Projects</a>&nbsp;&nbsp;&nbsp;
       &nbsp;&nbsp;&nbsp;<a href="gallery.html">Gallery</a>&nbsp;&nbsp;&nbsp;
-      &nbsp;&nbsp;&nbsp;<a href="resume.html">Resume</a></h3>
+      &nbsp;&nbsp;&nbsp;<a href="CV.html">CV</a></h3>
     <table>
       <tbody>
         <tr>
           <td style="width:40px"> <br>
           </td>
           <td style="width:800px">
-            <h3> 1. Model of actin cable dynamics</h3>
-            <p> Shown below is a 3D java simulation of the actin cable dynamics
-              in fission yeast. Green represents the cytoplasm in the fission
-              yeast cell. The blue spheres are immobile vacuoles that take up a
-              large amount of space in the cell. The yellow sphere in the center
-              stands for the nucleus. Formin protein clusters that localize at
-              the cell tip polymerize actin filaments. These actin filaments are
-              then bundled by cross-linking proteins. Sever proteins such as
-              cofilin are simulated as random filament turnovers. Myosins walk
-              along the actin filament thus generating forces that straighten
-              the actin cables.<br>
-              <img src="resource/simulation.gif" alt="Simulation" height="400px">
-              <br>
-              <br>
-              This work has been presented at: <br>
-              1.Biophysical Society 57th Annual Meeting: Sun Feb. 3, 2013 @
-              Philadelphia, USA (<a href="resource/BPS2013_Tang.pdf">PDF</a>) <br>
-              2.American Physical Society March Meeting 2013: Wed Mar. 20, 2013
-              @ Baltimore, USA (<a href="resource/APS2013_Tang.pdf">PDF</a>) <br>
-              3.Pombe 2013: Thu June 27, 2013 @ London, UK (<a href="resource/Pombe2013_Tang.pdf">PDF</a>)
+            <h3> 1. Model of actin dynamics in fission yeast</h3>
+              <p>(This is my PhD thesis work advised by Professor <a href="http://athena.physics.lehigh.edu/">Dimitrios Vavylonis</a> at Lehigh University and supported by <a href="http://www.nigms.nih.gov/">NIH/NIGMS</a>)</p>
+              <p>Haosu Tang, Damien Laporte, Dimitrios Vavylonis, "Actin cable distribution and dynamics arising from cross-linking, motor pulling, and filament turnover", <em>Molecular Biology of the Cell</em> (2014) <a href="http://www.molbiolcell.org/content/25/19/3006.full.pdf">link</a>.
+                  <br><br>
+                  Tamara Bidone, Haosu Tang, Dimitrios Vavylonis, "Dynamic Network Morphology and Tension Buildup in a 3D Model of Cytokinetic Ring Assembly", <em>Biophysical Journal</em> (2014) <a href="http://www.cell.com/biophysj/pdf/S0006-3495(14)01117-5.pdf">link</a>.
+              </p>
+              <p>
+                Cells are well known as "building blocks" of life. The growth of every living organism on earth relies on the proper growth and division of cells. Malfunction of growth and division will cause irregular cell morphorlogies, reproduction failures, cancers and deaths. Actin, a ubiquitous kind of protein found in all cells, is crucial for such polarized cell growth and division. Actin monomers link to form actin filaments, which are then bundled by crosslinking proteins to form actin cables. These cables serve as tracks for the cell to transport organelles to where they belong, establishing polarized growth. We started out from building a coarse-grained 3D semiflexible polymer model that represents the physical properties of actin filament. We further tested persistence length, relaxation time, equipartition of energy of this computational model. Effects of various actin interacting proteins are then added to the system as potentials that affect actin filaments structure and dynamics. Our model resembles the actin cable features observed in experimental images extremely well. Furthermore, it quantitatively explains actin cables structures in multiple cell mutants and makes testable predictions for future works.
+              </p>
+              <p>
+              <img src="resource/simulation.gif" alt="Simulation" height="200px">
+              </p>
+              <p>
+                  The actin cable work has been presented at the following conferences: <br>
+                  1). Biophysical Society 57th Annual Meeting: Feburary, 2013 @ Philadelphia, PA<br>
+                  2). American Physical Society March Meeting 2013: March, 2013 @ Baltimore, MD<br>
+                  3). Pombe 2013: June, 2013 @ London, UK*<br>
+                  4). American Society of Cell Biology 2013 meeting: December, 2013 @ New Orleans, LA
+                  <br><br>
+                  The actin cytokinetic ring model has been presented at the following conferences: <br>
+                  5). American Society of Cell Biology 2013 meeting: December, 2013 @ New Orleans, LA*<br>
+                  6). Biophysical Society 58th Annual Meeting: Feburary, 2014 @ San Francisco, CA*<br>
+                  7). American Society of Mechanical Engineers 2014 meeting: November, 2014 @ Montreal, Canada*<br><br>
+                  (*: work is presented by a coauthor)
+                  
+
+				 
             </p>
-            <p>I'm currently writing draft for this work and will submit in a
-              few weeks.<br>
-              This work is supported by an NIH grant.</p>
-            <h3> 2. Actin dynamics in droplet</h3>
-            <p> The simulation below shows actin proteins polymerize from random
+               <br>
+				<h3> 2. Actin dynamics in budding yeast</h3>
+				<p>
+				Further, we modified the model and extended it to the budding yeast systems. G2 growth phase budding yeast has a calabash shape where the bud grow out of the mother at the budding site. Two types of formins help polymerize actin filament at different rates: one localized at the bud, the other at the neck. Our new model adjusted to this complicated shape and polymerization mechanism.
+				</p>
+              <p>
+                  Preliminary snapshots:<br>
+				  <p>
+				  
+					<img src="resource/buddingyeast.png" alt="buddingyeast" height="250px">
+					</p>
+                  <!-- add-->
+              </p>
+              <p>
+				  The work is currently under preparation for publication.
+                  <br>
+                  <br>
+                  To appear in American Society of Cell Biology 2014 meeting at Philadelphia.
+				  
+              </p>
+              
+            
+              
+              <br>
+            <h3> 3. Actin dynamics in droplet</h3>
+            <p> We are also interested in building a computational model to simulate actin network structure and dynamics in confined space. The simulation below shows actin proteins polymerize from random
               positions and become bundled inside a droplet. The size of the
               actin network becomes "squeezed" after bundling. Sometimes the
-              network can form a ring structure under certain conditions. <br>
+              network can form a ring structure under certain conditions.<br>
               <img src="resource/droplet.gif" alt="Droplet GIF" height="400px">
             </p>
-            <h3> 3. Worm-like chain and semiflexible polymers</h3>
-            <p> The single filament below is simulated as semi-flexible
-              polymers. The segment length is 0.1 ?m and the total filament
-              length is 3 ?m. This filament fluctuates under thermal forces with
-              its persistence length set at 10 ?m. <br>
+              
+              <br>
+            <h3> 4. Worm-like chain and semiflexible polymers</h3>
+            <p>The single filament below is simulated as semi-flexible
+              polymers. The segment length is 0.1 &mu;m and the total filament
+              length is 3 &mu;m. This filament fluctuates under thermal forces with
+              its persistence length set at 10 &mu;m. I compared the mechanical properties (such as persistence length) of single filament and bundle. The description for the filament model can be found in supplementary material of my MBoC paper. This is a course project I designed for BioE421 by Professor Anand Jagota.<br>
+			  Project summary paper <a href = "resource/BioE421_TermPaper_HaosuTang.pdf" target="_blank">here</a>.<br>
               <br>
               This youtube video shows six filaments are initialized towards one
               direction and fluctuate through the "zipping" process and finally
@@ -61,23 +92,35 @@
               <iframe src="//www.youtube.com/embed/5JOW2FERhWY?rel=0" allowfullscreen=""
                 frameborder="0"
                 height="315"
-                width="420"></iframe></p>
-            <h3> 4. Lennard-Jones particles</h3>
+                width="420"></iframe>
+				</p>
+				
+				<br>
+            <h3> 5. Lennard-Jones particles</h3>
             <p>A system of particles is simulated here inside the box with
               periodic boundary conditions under Lennard-Jones potential.
-              Veclocites are rescaled under given temperature condition. <br>
-              <iframe width="560" height="315" src="//www.youtube.com/embed/etyUl5xr9QI?rel=0" frameborder="0" allowfullscreen></iframe>
+              Velocities are rescaled under given temperature conditions. This work is advised by Professor Jeetain Mittal as a final project for CHE 498.<br>
+              <iframe src="//www.youtube.com/embed/etyUl5xr9QI?rel=0" allowfullscreen=""
+                frameborder="0"
+                height="315"
+                width="560"></iframe>
               <br>
               Here a system of dumbbells is simulated showing symmetric motion
-              (constraint conditions). <br>
+              (constraint conditions).  I used Lagrangian approach to include the rigid body constraints of dumbbells. The constraint terms are added to the bond potential. Positions are updated without constraints using Position Verlet. An additional term is then added to the position to count in the constraints.<br>
               <iframe src="//www.youtube.com/embed/QVNjinowSZc" allowfullscreen=""
                 frameborder="0"
                 height="315"
                 width="420"></iframe>
             </p>
-            <h3> 5. Image registration and shape finding</h3>
+			
+			<br>
+            <h3> 6. Image registration and shape finding</h3>
             <p>
-              <iframe width="560" height="315" src="//www.youtube.com/embed/jwGbw8fbc8Q?rel=0" frameborder="0" allowfullscreen></iframe>
+			I developed a medical image processing application that performs Gaussian smoothing, thresholding, shape finding and labeling on medical images. This software can also reconstruct 3D images from a stack of 2D images and track the movement of patterns. This work is advised by Professor Xiaolei Huang as a final project for CSE 420.<br>
+			<iframe src="//www.youtube.com/embed/jwGbw8fbc8Q?rel=0" allowfullscreen=""
+                frameborder="0"
+                height="315"
+                width="560"></iframe>
             </p>
           </td>
         </tr>
